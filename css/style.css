@@ -128,7 +128,45 @@ footer {
 .footer-last {
     font-size: 12px;
 }
-
+.accordion-item{
+    border: 0;
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    border-radius: 0 !important;
+}
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed{
+    border-radius: 0;
+}
+.accordion-item {
+    background: #f7f7f7;
+}
+.accordion-button {
+    height: 45px;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+.accordion-button:hover {
+    background-color: #f2f3f5 !important;
+    color: #e78761 !important;
+}
+.accordion-body{
+    padding-top: 0;
+    padding-right: 0;
+}
+.accordion-button:not(.collapsed) {
+    color: #e2825a;
+    box-shadow: none;
+    background: transparent;
+}
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: unset;
+}
+.accordion-button::after {
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+}
 @media screen and (max-width:991px) {
     .hero-section {
         background-size: 1600px;
