@@ -39,10 +39,11 @@ a {
     font-size: 56px;
     font-weight: 600;
 }
-
-.flyout-menu {
+#accordionMenu {
     position: sticky;
     top: 110px;
+}
+.flyout-menu {
     border-radius: 25px;
     background-color: #ffffff;
     border: 1px solid #fdfdfd;
