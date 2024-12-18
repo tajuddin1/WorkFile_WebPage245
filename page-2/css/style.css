@@ -1,0 +1,136 @@
+:root {
+    --color-primary: #0d6efd;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fcfcfc;
+    color: #343140;
+}
+
+a {
+    color: #162748;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #fcfcfc;
+    box-shadow: 0px 0px 2px 0px #198754a6;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.navItems.colored,
+.navItems:hover,
+.navItems:focus {
+    color: var(--color-primary);
+}
+
+.image-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-post {
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-post:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+}
+.card:hover:before {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.card-body {
+    position: relative;
+    padding: 1.3rem;
+}
+
+.card-post-meta-img {
+    height: 2.25rem;
+    width: 2.25rem;
+}
+
+.card-post.rounded-3,
+.card-post .rounded-3:before {
+    overflow: hidden;
+    border-radius: .5rem !important;
+}
+
+.glass-fx {
+    backdrop-filter: blur(.15rem);
+}
+
+.badge {
+    padding: .3075rem .615rem;
+    font-size: .8462em;
+    font-weight: 400;
+    line-height: 1;
+    border-radius: .2rem;
+}
+
+.badge i {
+    font-size: 11px;
+}
+.card-img-top img{
+    transition: 0.3s ease;
+}
+.blog-grid .card:hover .card-img-top img{
+    transform: scale(1.1);
+}
+.blog-grid .card:hover .card-title{
+    color: var(--color-primary);
+}
+
+footer {
+    background-color: #1c1614;
+    color: #f2f3f5;
+    padding-bottom: 10px;
+}
+
+.footerLink {
+    color: #ffffff;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+.footerLink:hover {
+    color: var(--color-primary);
+}
+
+.footer-last {
+    font-size: 12px;
+}
+@media screen and (max-width:991px) {}
+
+@media screen and (max-width:767px) {
+    body {
+        font-size: 14px;
+    }
+    .navItems{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .container {
+        max-width: 95%;
+    }
+}

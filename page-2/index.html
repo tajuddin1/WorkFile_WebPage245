@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar w-100 py-3">
+        <div class="container d-block">
+            <div class="row">
+                <div class="col-4 col-md-2 col-lg-3 d-flex align-items-center">
+                    <a class="navbar-brand py-0" href="#"><h3 class="mb-0 fs-3 lh-1 text-primary">Logo</h3></a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-6 d-flex align-items-center justify-content-end justify-content-md-center">
+                    <div class="offcanvas-md offcanvas-top h-100 px-2 pt-3 p-md-0" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <button type="button" class="btn-close ms-auto pe-3 d-md-none" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar" aria-label="Close"></button>
+                        <div class="menu-wrapper d-flex flex-column h-100 justify-content-between ">
+                            <ul class="list-unstyled d-flex flex-column flex-md-row justify-content-end mb-0">
+                                <li>
+                                    <a href="#" class="text-decoration-none navItems colored px-3 px-lg-4 py-2 d-block">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none navItems px-3 px-lg-4 py-2 d-block">Features</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none navItems px-3 px-lg-4 py-2 d-block">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none navItems px-3 px-lg-4 py-2 d-block">About</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none navItems px-3 px-lg-4 py-2 d-block">FAQs</a>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled mb-5 mb-md-0">
+                                <li class="d-flex d-md-none gap-3 px-3 mt-4">
+                                    <button type="button" class="btn flex-grow-1 btn-outline-primary">Login</button>
+                                    <button type="button" class="btn flex-grow-1 btn-primary">Sign Up</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler d-flex d-md-none border-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="fss-same navbar-toggler-icon fs-4"></span>
+                    </button>
+                </div>
+                <div class="col-md-3 d-flex align-items-center justify-content-end gap-2 d-none d-md-flex">
+                    <button type="button" class="btn btn-outline-primary btn-sm">Login</button>
+                    <button type="button" class="btn btn-primary btn-sm">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="row g-4 py-4">
+                <div class="col-lg-6">
+                    <div class="card rounded-3 h-100 card-post" style="background-image:url('https://images.unsplash.com/photo-1629104300041-331cddce6ec5?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTc5NjczNw&ixlib=rb-1.2.1&q=85');">
+                        <div class="card-body d-flex align-items-center rounded">
+                            <div class="w-100 mt-auto">
+                                <a href="#" class="badge text-white bg-primary mb-2 border-0">
+                                   <i class="bi bi-circle-fill"></i>
+                                    <span>Lifestyle</span>
+                                </a>
+                                <a class="d-block h3 fw-bold text-white stretched-link" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing Officiis.</a>
+                                <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing Magni quaerat earum corrupti natus, aliquid nobis blanditiis sint odio aperiam repudiandae!</p>
+                                <div class="d-flex align-items-center">
+                                    <img src="https://images.unsplash.com/photo-1631476767348-5c7b63a29993?rect=640,640,600,600&w=256&h=256&q=50" class="card-post-meta-img me-2 rounded-circle">
+                                    <div class="d-flex flex-grow-1 flex-column justify-content-center align-items-start">
+                                        <div class="small fw-bold text-white">Dolore Magna</div>
+                                        <div class="small text-white" style="--bs-text-opacity:.6;">Dec 17 · 5 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="card rounded-3 h-100 card-post" style="background-image:url('https://images.unsplash.com/photo-1630194146857-a284bbcb7113?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTc5OTQ4Mg&ixlib=rb-1.2.1&q=85');">
+                                <div class="card-body d-flex align-items-center rounded">
+                                <div class="w-100 mt-auto">
+                                    <a href="#" class="badge text-white bg-warning mb-2 border-0">
+                                        <i class="bi bi-circle-fill"></i>
+                                        <span>Lifestyle</span>
+                                    </a>
+                                    <a class="d-block h3 fw-bold text-white stretched-link mb-3" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit veritatis.</a>
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://images.unsplash.com/photo-1630255898495-bb288715736f?rect=1010,2460,400,400&w=256&amp;h=256&q=50" class="card-post-meta-img me-2 rounded-circle">
+                                        <div class="d-flex flex-grow-1 flex-column justify-content-center align-items-start">
+                                            <div class="small fw-bold text-white">Quis Nostrud</div>
+                                            <div class="small text-white" style="--bs-text-opacity:.6;">Dec 18 · 12 min read</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card rounded-3 h-100 card-post" style="background-image:url('https://images.unsplash.com/photo-1631097969294-c38afba59496?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTc5OTUxNQ&ixlib=rb-1.2.1&q=50');">
+                                <div class="card-body d-flex align-items-center rounded">
+                                    <div class="w-100 mt-auto">
+                                        <a href="#" class="badge text-white bg-success mb-2 border-0">
+                                            <i class="bi bi-circle-fill"></i>
+                                            <span>Lifestyle</span>
+                                        </a>
+                                        <a class="d-block h3 fw-bold text-white stretched-link" href="#">Lorem ipsum dolor amet.</a>
+                                        <div class="d-flex align-items-center">
+                                            <div class="d-flex flex-grow-1 flex-column justify-content-center align-items-start">
+                                                <div class="small fw-bold text-white">Aliquip Commodo</div>
+                                                <div class="small text-white" style="--bs-text-opacity:.6;">Dec 2</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card rounded-3 h-100 card-post" style="background-image:url('https://images.unsplash.com/photo-1631509716275-59e9d106504a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTc5OTk0Mw&ixlib=rb-1.2.1&q=50');">
+                                <div class="card-body d-flex align-items-center rounded">
+                                    <div class="w-100 mt-auto">
+                                        <a href="#" class="badge text-white bg-info mb-2 border-0">
+                                            <i class="bi bi-circle-fill"></i>
+                                            <span>Lifestyle</span>
+                                        </a>
+                                        <a class="d-block h3 fw-bold text-white stretched-link" href="#">Lorem ipsum dolor sit.</a>
+                                        <div class="d-flex align-items-center">
+                                            <div class="d-flex flex-grow-1 flex-column justify-content-center align-items-start">
+                                                <div class="small fw-bold text-white">Veniam Quis</div>
+                                                <div class="small text-white" style="--bs-text-opacity:.6;">Dec 4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-4">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-lg-9">
+                    <div class="mb-4">
+                        <h3 class="mb-1 fw-bold">
+                            <i class="bi bi-graph-up-arrow me-2"></i>
+                            <span>Today's top highlights</span>
+                        </h3>
+                        <p>Latest breaking news, pictures, videos, and special reports</p>
+                    </div>
+                    <div class="blog-grid row g-4 pt-2 row-cols-1 row-cols-md-2 row-cols-xl-3 mb-4">
+            
+                        <a href="#" class="col">
+                            <div class="card rounded card-flat h-100 border-0">
+                                <div class="card-img-top rounded overflow-hidden">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1631415928999-c375f0bc21c7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY0NTI5OQ&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480" alt="">
+                                </div>
+                                <div class="card-body px-0 py-2">
+                                    <h5 class="h5 card-title fw-bold mb-1">Lorem ipsum dolor sit.</h5>
+                                    <p class="card-text text-black-50 fw-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut incidunt praesentium aspernatur nemo suscipit corrupti exercitationem facilis dicta.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0 px-0 pt-0 d-flex align-items-center">
+                                    <img src="https://images.unsplash.com/photo-1631476767348-5c7b63a29993?rect=640,640,600,600&w=256&h=256&q=50" class="card-post-meta-img me-2 rounded-circle">
+                                    <div class="d-flex flex-grow-1 flex-column justify-content-center align-items-start">
+                                        <div class="small fw-bold">Dolore Magna</div>
+                                        <div class="small" style="--bs-text-opacity:.6;">Dec 14 · 5 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+            
+                        <a href="#" class="col">
+                            <div class="card rounded card-flat h-100 border-0">
+                                <div class="card-img-top rounded overflow-hidden">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY1MDIzOA&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480" alt="">
+                                </div>
+                                <div class="card-body px-0 py-2">
+                                    <h5 class="h5 card-title fw-bold mb-1">Lorem ipsum dolor sit.</h5>
+                                    <p class="card-text text-black-50 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vel reprehenderit quod aspernatur?</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0 px-0 pt-0 d-flex align-items-center">
+                                    <img src="https://images.unsplash.com/photo-1630255898495-bb288715736f?rect=1010,2460,400,400&w=256&amp;h=256&q=50" class="card-post-meta-img me-2 rounded-circle">
+                                    <div class="d-flex flex-grow-1 flex-column justify-content-center align-items-start">
+                                        <div class="small fw-bold">Quis Nostrud</div>
+                                        <div class="small"  style="--bs-text-opacity:.6;">Dec 11 · 5 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+            
+                        <a href="#" class="col">
+                            <div class="card rounded card-flat h-100 border-0">
+                                <div class="card-img-top rounded overflow-hidden">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1630750793250-71173d8bfa5e?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY0NTI5OQ&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480"  alt="">
+                                </div>
+                                <div class="card-body px-0 py-2">
+                                    <h5 class="h5 card-title fw-bold mb-1">Lorem ipsum dolor sit amet.</h5>
+                                    <p class="card-text text-black-50 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nesciunt veniam odit? Debitis, animi!</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0 px-0 pt-0 d-flex align-items-center">
+                                    <img src="https://images.unsplash.com/photo-1631476767348-5c7b63a29993?rect=640,640,600,600&w=256&h=256&q=50" class="card-post-meta-img me-2 rounded-circle">
+                                    <div class="d-flex flex-grow-1 flex-column justify-content-center align-items-start">
+                                        <div class="small fw-bold">Dolore Magna</div>
+                                        <div class="small" style="--bs-text-opacity:.6;">Dec 5 · 12 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+            
+                        <a href="#" class="col">
+                            <div class="card rounded card-flat h-100 border-0">
+                                <div class="card-img-top rounded overflow-hidden">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1629662182419-960a8596bba0?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY1MDE1Ng&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480" alt="">
+                                </div>
+                                <div class="card-body px-0 py-2">
+                                    <h5 class="h5 card-title fw-bold mb-1">Lorem ipsum dolor sit amet.</h5>
+                                    <p class="card-text text-black-50 fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam ullam, minima alias animi repellendus laboriosam culpa.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0 px-0 pt-0 d-flex align-items-center">
+                                    <img src="https://images.unsplash.com/photo-1630255898495-bb288715736f?rect=1010,2460,400,400&w=256&amp;h=256&q=50" class="card-post-meta-img me-2 rounded-circle">
+                                    <div class="d-flex flex-grow-1 flex-column justify-content-center align-items-start">
+                                        <div class="small fw-bold">Quis Nostrud</div>
+                                        <div class="small" style="--bs-text-opacity:.6;">Dec 4 · 6 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+            
+                        <a href="#" class="col">
+                            <div class="card rounded card-flat h-100 border-0">
+                                <div class="card-img-top rounded overflow-hidden">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1619010549583-aba7425d28dc?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY1MDE5OQ&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480" alt="">
+                                </div>
+                                <div class="card-body px-0 py-2">
+                                    <h5 class="h5 card-title fw-bold mb-1">Lorem ipsum dolor sit amet.</h5>
+                                    <p class="card-text text-black-50 fw-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo cumque unde quidem consectetur quasi ipsam? Magnam, eligendi.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0 px-0 pt-0 d-flex align-items-center">
+                                    <img src="https://images.unsplash.com/photo-1631476767348-5c7b63a29993?rect=640,640,600,600&w=256&h=256&q=50" class="card-post-meta-img me-2 rounded-circle">
+                                    <div class="d-flex flex-grow-1 flex-column justify-content-center align-items-start">
+                                        <div class="small fw-bold">Dolore Magna</div>
+                                        <div class="small"  style="--bs-text-opacity:.6;">Dec 14 · 5 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+            
+                        <a href="#" class="col">
+                            <div class="card rounded card-flat h-100 border-0">
+                                <div class="card-img-top rounded overflow-hidden">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY1MDIzOA&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480" alt="">
+                                </div>
+                                <div class="card-body px-0 py-2">
+                                    <h5 class="h5 card-title fw-bold mb-1">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    <p class="card-text text-black-50 fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0 px-0 pt-0 d-flex align-items-center">
+                                    <img src="https://images.unsplash.com/photo-1630255898495-bb288715736f?rect=1010,2460,400,400&w=256&amp;h=256&q=50" class="card-post-meta-img me-2 rounded-circle">
+                                    <div class="d-flex flex-grow-1 flex-column justify-content-center align-items-start">
+                                        <div class="small fw-bold">Quis Nostrud</div>
+                                        <div class="small" style="--bs-text-opacity:.6;">Nov 25 · 19 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+            
+                    </div>
+                    <div class="text-center py-2">
+                        <button class="btn btn-primary">Load More Articles</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5 mt-lg-0">
+                    <div class="row g-1 row-cols-3 mb-4">
+                        <div class="col">
+                            <a href="#" class="bg-info rounded text-center text-white px-1 py-2 d-flex flex-column align-items-center">
+                                <i class="bi bi-twitter-x fs-2 mb-2"></i>
+                                <h6 class="m-0">15.4K</h6>
+                                <span class="small">Follows</span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#" class="bg-danger rounded text-center text-white px-1 py-2 d-flex flex-column align-items-center">
+                                <i class="bi bi-youtube fs-2 mb-2"></i>
+                                <h6 class="m-0">120K</h6>
+                                <span class="small">Subs</span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#" class="bg-success rounded text-center text-white px-1 py-2 d-flex flex-column align-items-center">
+                                <i class="bi bi-share-fill fs-2 mb-2"></i>
+                                <h6 class="m-0">1K</h6>
+                                <span class="small">Shares</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <h4 class="mb-2 fw-bold">Popular topics</h4>
+                        <div class="text-center mb-3 position-relative overflow-hidden rounded card-post" style="background-image:url('https://images.unsplash.com/photo-1629104300041-331cddce6ec5?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTc5NjczNw&ixlib=rb-1.2.1&q=85');">
+                            <div class="card-body position-relative p-2 py-3">
+                                <a href="#" class="stretched-link btn-link fw-bold text-decoration-none text-white h5">Travel</a>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3 position-relative overflow-hidden rounded card-post" style="background-image:url('https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY1MDIzOA&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480');">
+                            <div class="card-body position-relative p-2 py-3">
+                                <a href="#" class="stretched-link btn-link fw-bold text-decoration-none text-white h5">Business</a>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3 position-relative overflow-hidden rounded card-post" style="background-image:url('https://images.unsplash.com/photo-1631415928999-c375f0bc21c7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY0NTI5OQ&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480');">
+                            <div class="card-body position-relative p-2 py-3">
+                                <a href="#" class="stretched-link btn-link fw-bold text-decoration-none text-white h5">Games</a>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3 position-relative overflow-hidden rounded card-post" style="background-image:url('https://images.unsplash.com/photo-1630750793250-71173d8bfa5e?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY0NTI5OQ&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480');">
+                            <div class="card-body position-relative p-2 py-3">
+                                <a href="#" class="stretched-link btn-link fw-bold text-decoration-none text-white h5">Photography</a>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3 position-relative overflow-hidden rounded card-post" style="background-image:url('https://images.unsplash.com/photo-1619010549583-aba7425d28dc?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY1MDE5OQ&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480');">
+                            <div class="card-body position-relative p-2 py-3">
+                                <a href="#" class="stretched-link btn-link fw-bold text-decoration-none text-white h5">Language</a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3">
+                            <a href="#" class="fw-bold text-body text-primary-hover">
+                                <u>View all categories</u>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="col-12 col-sm-6 col-lg-12">
+                            <h4 class="mt-4 mb-3 fw-bold">Recent post</h4>
+                            <div class="card card-flat border-0 mb-3">
+                                <div class="row g-3">
+                                    <div class="col-4">
+                                        <img class="rounded w-100"
+                                            src="https://images.unsplash.com/photo-1631415928999-c375f0bc21c7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY0NTI5OQ&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480"
+                                            alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <a href="#" class="h6 fw-bold stretched-link fw-bold d-block text-truncate my-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                                        <div class="small text-muted">Dec 17, 2024</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-flat border-0 mb-3">
+                                <div class="row g-3">
+                                    <div class="col-4">
+                                        <img class="rounded w-100" src="https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY1MDIzOA&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <a href="#" class="h6 fw-bold stretched-link fw-bold d-block text-truncate my-0">sed do eiusmod tempor incididunt.</a>
+                                        <div class="small text-muted">Dec 04, 2024</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-flat border-0 mb-3">
+                                <div class="row g-3">
+                                    <div class="col-4">
+                                        <img class="rounded w-100" src="https://images.unsplash.com/photo-1630750793250-71173d8bfa5e?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY0NTI5OQ&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <a href="#" class="h6 fw-bold stretched-link fw-bold d-block text-truncate my-0">Duis aute irure dolor in reprehenderit in voluptate.</a>
+                                        <div class="small text-muted">Nov 30, 2024</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-flat border-0 mb-3">
+                                <div class="row g-3">
+                                    <div class="col-4">
+                                        <img class="rounded w-100" src="https://images.unsplash.com/photo-1629662182419-960a8596bba0?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTY1MDE1Ng&ixlib=rb-1.2.1&q=50&fit=crop&w=852&h=480" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <a href="#" class="h6 fw-bold stretched-link fw-bold d-block text-truncate my-0">Velit esse cillum dolore eu fugiat nulla pariatur.</a>
+                                        <div class="small text-muted">Nov 29, 2024</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pt-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-6 col-sm-3 mb-4 mb-sm-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-decoration-none footerLink">Formats</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">Themes</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">Accessibility</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">Status</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-3 mb-4 mb-sm-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-decoration-none footerLink">Introduction</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">Form Validation</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">FAQ</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">Elements</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-3 mb-4 mb-sm-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-decoration-none footerLink">API</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">Pricing</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">Usages</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">Visibility</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-3 mb-4 mb-sm-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-decoration-none footerLink">Compression</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">Documentation</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">Marketplace</a></li>
+                        <li><a href="#" class="text-decoration-none footerLink">Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-last py-2 bg-dark text-light">
+        <div class="container">
+            <span class="fw-normal d-block text-center">Copyright 2024 © <a href="#" class="text-light">Website Name</a></span>
+        </div>
+    </div>
+
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+</html>
