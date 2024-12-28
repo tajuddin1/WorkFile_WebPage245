@@ -64,95 +64,48 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 col-md-3 mb-4 mb-sm-0">
-                    <div class="accordion" id="accordionMenu">
-                        <ul class="flyout-menu list-unstyled mb-0 d-flex flex-column">
-                            <li><a href="#" class="border-bottom text-decoration-none"> Menu 1</a></li>
-                            <li><a href="#" class="border-bottom text-decoration-none"> Menu 2</a></li>
-                            <li><a href="#" class="border-bottom text-decoration-none"> Menu 3</a></li>
-                            <li>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                             Accordion Menu 1
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionMenu">
-                                        <div class="accordion-body">
-                                            <div class="accordion" id="accordionSubmenuOne">
-                                                <ul class="list-unstyled">
-                                                    <li>
-                                                        <div class="accordion-item">
-                                                            <h2 class="accordion-header">
-                                                                <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#subMenucollapseOne" aria-expanded="false" aria-controls="subMenucollapseOne">
-                                                                    Accordion Sub Menu
-                                                                </button>
-                                                            </h2>
-                                                            <div id="subMenucollapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionSubmenuOne">
-                                                                <div class="accordion-body">
-                                                                    <ul class="list-unstyled">
-                                                                        <li><a href="#" class="border-bottom text-decoration-none"> Sub Menu Item 1</a></li>
-                                                                        <li><a href="#" class="border-bottom-0 text-decoration-none"> Sub Menu Item 2</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li><a href="#" class="border-bottom text-decoration-none">Accordion Sub Menu Item 1</a></li>
-                                                    <li><a href="#" class="border-bottom text-decoration-none">Accordion Sub Menu Item 2</a></li>
-                                                    <li><a href="#" class="border-bottom-0 text-decoration-none">Accordion Sub Menu Item 3</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                             Accordion Menu 2
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionMenu">
-                                        <div class="accordion-body">
-                                            <div class="accordion" id="accordionSubmenuTwo">
-                                                <ul class="list-unstyled">
-                                                    <li><a href="#" class="border-bottom text-decoration-none">Accordion Sub Menu Item 1</a></li>
-                                                    <li>
-                                                        <div class="accordion-item">
-                                                            <h2 class="accordion-header">
-                                                                <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#subMenucollapseTwo" aria-expanded="false" aria-controls="subMenucollapseTwo">
-                                                                    Accordion Sub Menu
-                                                                </button>
-                                                            </h2>
-                                                            <div id="subMenucollapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionSubmenuTwo">
-                                                                <div class="accordion-body">
-                                                                    <ul class="list-unstyled">
-                                                                        <li><a href="#" class="border-bottom text-decoration-none"> Sub Menu Item 1</a></li>
-                                                                        <li><a href="#" class="border-bottom-0 text-decoration-none"> Sub Menu Item 2</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li><a href="#" class="border-bottom-0 text-decoration-none">Accordion Sub Menu Item 2</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li><a href="#" class="border-bottom text-decoration-none"> Menu 4</a></li>
-                            <li><a href="#" class="border-bottom text-decoration-none"> Menu 5</a></li>
-                            <li><a href="#" class="border-bottom text-decoration-none"> Menu 6</a></li>
-                            <li><a href="#" class="border-bottom text-decoration-none"> Menu 7</a></li>
-                            <li><a href="#" class="border-bottom text-decoration-none"> Menu 8</a></li>
-                            <li><a href="#" class="border-bottom text-decoration-none"> Menu 9</a></li>
-                            <li><a href="#" class="border-bottom text-decoration-none"> Menu 10</a></li>
-                            <li><a href="#" class="border-bottom text-decoration-none"> Menu 11</a></li>
-                            <li><a href="#" class="border-0 text-decoration-none"> Menu 12</a></li>
-                        </ul>
-                    </div>
+                    <ul class="flyout-menu list-unstyled mb-0 d-flex flex-column">
+                        <li><a href="#" class="text-decoration-none"> Menu 1</a></li>
+                        <li><a href="#" class="text-decoration-none"> Menu 2</a></li>
+                        <li><a href="#" class="text-decoration-none"> Menu 3</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link navItems-filed px-4 py-2 d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button">Menu 4</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item navItems-filed px-4 py-2" href="#">Menu 4 Lavel 2 </a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item navItems-filed px-4 py-2 dropdown-toggle" href="#">Menu 4 Lavel 2</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item navItems-filed px-4 py-2" href="#">Menu 4 Lavel 3</a></li>
+                                        <li><a class="dropdown-item navItems-filed px-4 py-2" href="#">Menu 4 Lavel 3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item navItems-filed px-4 py-2" href="#">Menu 4 Lavel 2 </a></li>
+                                <li><a class="dropdown-item navItems-filed px-4 py-2" href="#">Menu 4 Lavel 2 </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="text-decoration-none"> Menu 5</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link navItems-filed px-4 py-2 d-flex dropdown-toggle" href="#" id="navbarDropdown" role="button">Menu 6</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item navItems-filed px-4 py-2" href="#">Menu 6 Lavel 2 </a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item navItems-filed px-4 py-2 dropdown-toggle" href="#">Menu 6 Lavel 2</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item navItems-filed px-4 py-2" href="#">Menu 6 Lavel 3 hello</a></li>
+                                        <li><a class="dropdown-item navItems-filed px-4 py-2" href="#">Menu 6 Lavel 3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item navItems-filed px-4 py-2" href="#">Menu 6 Lavel 2 </a></li>
+                                <li><a class="dropdown-item navItems-filed px-4 py-2" href="#">Menu 6 Lavel 2 </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="text-decoration-none"> Menu 7</a></li>
+                        <li><a href="#" class="text-decoration-none"> Menu 8</a></li>
+                        <li><a href="#" class="text-decoration-none"> Menu 9</a></li>
+                        <li><a href="#" class="text-decoration-none"> Menu 10</a></li>
+                        <li><a href="#" class="text-decoration-none"> Menu 11</a></li>
+                        <li><a href="#" class="border-0 text-decoration-none"> Menu 12</a></li>
+                    </ul>
                 </div>
                 <div class="col-sm-7 col-md-9">
                     <div class="card-grid">
@@ -265,6 +218,56 @@
     
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.nav-item.dropdown > .nav-link').click(function(e) {
+                e.preventDefault();
+                var $dropdownMenu = $(this).next('.dropdown-menu');
+    
+                // Toggle dropdown visibility and class on click
+                $('.dropdown-menu.show').not($dropdownMenu).removeClass('show').prev('.dropdown-toggle').removeClass('open');
+                $dropdownMenu.toggleClass('show');
+                $(this).toggleClass('open', $dropdownMenu.hasClass('show'));
+            });
+    
+            // Handle submenu toggling without closing the main dropdown
+            $('.dropdown-item.dropdown-toggle').click(function(e) {
+                e.preventDefault();
+                var $submenu = $(this).next('.dropdown-menu');
+                $submenu.toggleClass('show');
+                $(this).toggleClass('open', $submenu.hasClass('show'));
+            });
+    
+            // Close dropdowns when clicking outside
+            $(document).click(function(e) {
+                if (!$(e.target).closest('.dropdown').length) {
+                    $('.dropdown-menu.show').removeClass('show');
+                    $('.dropdown-toggle.open').removeClass('open');
+                }
+            });
+    
+            // Close dropdown on item click
+            $('.dropdown-menu a:not(.dropdown-toggle)').click(function() {
+                $(this).closest('.dropdown-menu').removeClass('show');
+                $(this).closest('.dropdown-menu').prev('.dropdown-toggle').removeClass('open');
+            });
+    
+            // Adjust submenu position on hover and click for responsiveness
+            $('.dropdown-menu .dropdown-menu').each(function() {
+                var $submenu = $(this);
+                $submenu.parent().click(function() { adjustDropdownPosition($submenu); });
+            });
+    
+            function adjustDropdownPosition($submenu) {
+                $submenu.css({ left: '50%', right: 'auto' });
+    
+                var rect = $submenu[0].getBoundingClientRect();
+                if (rect.right > $(window).width()) {
+                    $submenu.css({ left: 'auto', right: '50%' });
+                }
+            }
+        });
+    </script>
     
 </body>
 
